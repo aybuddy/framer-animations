@@ -1,0 +1,42 @@
+.nav {
+  background-color: lightblue;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.nav-logo {
+  cursor: pointer;
+  color: black;
+}
+
+.mobile-icon {
+  display: none;
+}
+
+.navbar-link {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    padding: 0 16px;
+  }
+  .mobile-icon {
+    display: block;
+    cursor: pointer;
+  }
+}
