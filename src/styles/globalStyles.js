@@ -101,6 +101,19 @@ p, li {
   width: 100%;
 }
 
+.left-panel-background {
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  z-index: 11;
+}
+.right-panel-background {
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  right: 0;
+  z-index: 11;
+}
 
 `;
 
